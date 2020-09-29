@@ -1,0 +1,7 @@
+'''
+Author Name: Amit Kumar
+College : BIT Sindri
+Hackerrank Python rank : 1
+Python version: Python 3.5 7 above
+
+''
