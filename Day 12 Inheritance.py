@@ -11,7 +11,7 @@ class Student(Person):
     def __init__(self,firstName, lastName, idNumber, scores):#taking the value from main function 
         
         
-        super().__init__(firstName, lastName, idNumber)#calling the constructor class
+        super().__init__(firstName, lastName, idNumber)#calling the super class note here tht super is predefined function in python used to initialize child class with super class
         self.scores=scores # assigning the value here to local variable
     def calculate(self): #function defined to calculate the grades
         a = statistics.mean(self.scores) #best way to calculate mean but only for lists/arrays
