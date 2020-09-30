@@ -14,7 +14,7 @@ class Student(Person):
         super().__init__(firstName, lastName, idNumber)
         self.scores=scores
     def calculate(self):
-        a = sum(self.scores) / len(self.scores)
+        a = statistics.mean(self.scores)
         if a < 40:
             return "T"
         elif (40 <= a) and (a < 55):
